@@ -1,0 +1,8 @@
+This is a framework for having a client/server project, while using typescript, and having shared files.
+Hopefully just running npm install is enough to make it work. Otherwise do install, but with the --save-dev flag.
+
+To start the client, run: "npx parcel src/client/index.html"
+To start the server, run: "npx tsx watch src/server/server.ts"
+
+It should auto update when the side, or the shared side changes. Although if you change the client, the server does not refresh.
+The http server is hosted seperately on "parcel" but it works and I am not touching it. 
